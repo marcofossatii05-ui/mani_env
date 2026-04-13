@@ -151,8 +151,7 @@ def eulero_indietro(f, t0, tN, y0, h, nmax_pf=300, toll_pf=1e-5):
 
         # Verifica che A sia quadrata e compatibile con y0
         if A.shape[0] != A.shape[1] or A.shape[0] != d:
-            raise ValueError(
-                "La matrice A deve essere quadrata e della stessa dimensione di y0")
+            raise ValueError("La matrice A deve essere quadrata e della stessa dimensione di y0")
 
         # Inizializza la matrice soluzione
         t_h = np.zeros(N+1)     # Abbiamo N passi temporali, quindi N+1 nodi
