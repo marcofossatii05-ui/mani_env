@@ -12,7 +12,7 @@ def _valuta_funzione(f, x):
 
 def trapcomp(f, a, b, N):
     """
-    Calcola l'integrale definito usando il metodo dei trapezi composto.
+    Calcola l'integrale definito usando il metodo dei trapezi composito.
 
     Parametri:
     ----------
@@ -46,7 +46,7 @@ def trapcomp(f, a, b, N):
 
 def pmcomp(f, a, b, N):
     """
-    Calcola l'integrale definito usando il metodo del punto medio composto.
+    Calcola l'integrale definito usando il metodo del punto medio composito.
 
     Parametri:
     ----------
@@ -78,7 +78,7 @@ def pmcomp(f, a, b, N):
 
 def simpcomp(f, a, b, N):
     """
-    Calcola l'integrale definito usando la regola di Simpson composta.
+    Calcola l'integrale definito usando il metodo di Simpson composito.
 
     Parametri:
     ----------
